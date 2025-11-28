@@ -1,0 +1,45 @@
+# Elixir
+/_build/
+/deps/
+/*.lock
+*.ez
+*.beam
+*.plt
+.elixir_ls/
+
+# Node.js
+js/node_modules/
+js/package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Working directories
+.video_enhancer_work/
+.video_enhancer_cache/
+
+# Test/sample files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+!test/fixtures/*.mp4
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Crash dumps
+erl_crash.dump
